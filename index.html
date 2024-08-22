@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Stylish Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem vindo ao meu primeiro WebSite PHP!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mais</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Blablablablabla</h2>
+        <button id="cta-button">Ler Mais</button>
+    </section>
+
+    <section class="contact-form">
+        <h2>Nos contate por aqui</h2>
+        <form action="form.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 20/06/2024 Projeto Simples para Facul</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
